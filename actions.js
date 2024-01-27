@@ -592,7 +592,6 @@ module.exports = function compileActionDefinitions(self) {
 					label: 'Seconds (from end: prefix "-")',
 					id: 'offset',
 					default: '',
-					regex: '/^[+-]?\\d+$/',
 				},
 			],
 			callback: (action) => {

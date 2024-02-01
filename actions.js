@@ -564,6 +564,7 @@ module.exports = function compileActionDefinitions(self) {
 					label: 'Command',
 					id: 'cmd',
 					default: 'CLEAR 1',
+					useVariables: true,
 				},
 			],
 			callback: (action) => {
@@ -592,6 +593,7 @@ module.exports = function compileActionDefinitions(self) {
 					label: 'Seconds (from end: prefix "-")',
 					id: 'offset',
 					default: '',
+					useVariables: true,
 				},
 			],
 			callback: (action) => {
